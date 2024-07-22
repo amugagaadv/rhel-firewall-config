@@ -1,0 +1,20 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: parasolorg.wincompliance
+  description: Remediation playbooks
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: amugagaadv/rhel-firewall-config
+  links:
+    - url: https://devspaces.apps.ansible-rhdh.testing.ansible.com/#https://github.com/amugagaadv/rhel-firewall-config
+      title: Open Ansible project in OpenShift Dev Spaces
+      icon: web
+spec:
+  type: collection-project
+  lifecycle: production
+  owner: group:amugagaadv/ansible-rhdh-team
